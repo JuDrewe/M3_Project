@@ -28,3 +28,17 @@ Labels: active / active_single / inactive / inactive_single
 notebooks/M3_ML_classic_20260225.ipynb
   Scaffold-stratified 10-fold CV, Morgan FP + PhysChem,
   Logistic Regression, domain shift quantification, UMAP projection.
+
+## Reproducibility
+
+1. create environment
+conda env create -f environment.yml
+
+2. activate
+conda activate m3_ml
+
+3. train model
+python scripts/train_model.py
+
+4. generate figures
+python scripts/generate_figures.py
