@@ -1,0 +1,15 @@
+name: m3_ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn>=1.1
+  - matplotlib
+  - joblib
+  - rdkit
+  - pip
+  - pip:
+    - umap-learn

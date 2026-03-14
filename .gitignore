@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# raw data
+data/
+datasets/
+*.sdf
+*.csv
+
+# model artefacts
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# generated outputs
+plots/
+results/
+
+# manuscript outputs
+*.docx
+~$*.docx
+
+# local project data
+M3_databases/
+
+# Windows
+*.lnk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# logs
+*.log
+
+# secrets
+.env

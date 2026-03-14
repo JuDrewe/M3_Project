@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\Besitzer\\anaconda3\\envs\\openms_env\\python.exe",
+  "python.condaPath": "C:\\Users\\Besitzer\\anaconda3\\condabin\\conda.bat",
+
+  "jupyter.jupyterServerType": "local",
+  "jupyter.notebookFileRoot": "C:\\Users\\Besitzer\\Desktop\\M3_publication",
+  "jupyter.askForKernelRestart": false
+}
