@@ -15,21 +15,9 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# raw data
-data/
-datasets/
+# large external screening data (obtain separately, see README)
+data/raw/coconut_screen_ranked.csv
 *.sdf
-*.csv
-
-# model artefacts
-*.joblib
-*.pt
-*.pth
-*.onnx
-
-# generated outputs
-plots/
-results/
 
 # manuscript outputs
 *.docx
